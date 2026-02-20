@@ -12,6 +12,8 @@ public class MahasiswaMain23 {
         Mahasiswa mhs2 = new Mahasiswa("Annisa Nabila", "2141720160", 3.25, "TI 2L");
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+        Mahasiswa mhsPraditya = new Mahasiswa("Praditya", "2241720999", 3.40, "SI 2M");
+        mhsPraditya.tampilkanInformasi();
         System.out.println("Evaluasi Kinerja: " + mhs1.nilaiKinerja());
     }
 }
