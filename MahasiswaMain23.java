@@ -15,14 +15,14 @@ public class MahasiswaMain23 {
         System.out.println("Evaluasi Kinerja: " + mhs1.nilaiKinerja());
     }
 }
-class Mahasiswa23 {
+class Mahasiswa {
     String nim;
     String nama;
     String kelas;
     double ipk;
-    public Mahasiswa23() {
+    public Mahasiswa() {
     }
-    public Mahasiswa23(String nm, String nim, double ipk, String kls) {
+    public Mahasiswa(String nm, String nim, double ipk, String kls) {
         nama = nm;
         this.nim = nim;
         this.ipk = ipk;
